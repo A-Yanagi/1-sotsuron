@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "uniq": "^1.0.1",
+    "youtube-transcript": "^1.0.6"
+  }
+}
