@@ -18,7 +18,6 @@
           { width: 320, // プレーヤーの幅
             height: 200, // プレーヤーの高さ
             videoId: 'W34iWqkaiU0', // YouTubeのID 
-            startSeconds: 427, //スタート位置
             events: {
                 'onReady': function(event) {
                     startCaptionDisplay();
@@ -66,7 +65,7 @@
       }
 
       function startCaptionDisplay() {
-          interval = setInterval(displayCaption, 500); // 0.5秒ごとに実行
+          interval = setInterval(displayCaption, 200); // 0.2秒ごとに実行
       }
 
       function stopCaptionDisplay() {
