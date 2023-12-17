@@ -100,3 +100,18 @@ function saveIframeContent() {
     console.error('Iframe element not found.');
   }
 }
+
+//作成例
+function openNewWindow() {
+  // 新しいウィンドウを開く際の設定
+  var windowFeatures = 'width=500,height=400,location=no,menubar=no,toolbar=no';
+
+  // 新しいウィンドウを開く
+  var newWindow = window.open('about:blank', '_blank', windowFeatures);
+
+  // 新しいウィンドウに表示する外部HTMLファイルの指定
+  var externalHTMLFile = 'flowsheet_ex.html';
+
+  // 新しいウィンドウに外部HTMLファイルを読み込む
+  newWindow.document.location = externalHTMLFile;
+}
