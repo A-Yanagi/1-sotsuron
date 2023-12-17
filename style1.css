@@ -154,61 +154,6 @@ body{
   
 }
 
-.table-container {
-  overflow-x: auto;
-}
-
-.table-x{
-  min-width:80px;
-  white-space: nowrap; /* Prevent text wrapping */
-  overflow: auto;
-}
-
-.table-title{
-  background-color: rgb(172, 172, 205);
-  font-weight: bold;
-  text-align: center;
-}
-
-.top{
-  background-color: rgb(172, 172, 205);
-  text-decoration: underline;
-}
-
-.ad{
-  background-color: rgb(184, 109, 109);
-  font-weight: bold;
-}
-
-.ng{
-  background-color: rgb(137, 172, 224);
-  font-weight: bold;
-}
-
-.line{
-  background-image: linear-gradient(to top left,
-  transparent, transparent 49%,
-    black 49%,
-    black 51%,   /* 線の太さ */
-  transparent 51%, transparent);
-}
-
-.tips{
-  position: absolute;
-  visibility:hidden;
-  background-color: rgba(137, 172, 224, 0.872);
-  margin-left:1%;
-  padding:1em;
-  font-size:12px;
-  top:0px;
-}
-
-.link{
-  color:blue;
-  text-decoration: underline;
-}
-
-
 input[type=radio] {
   margin-top: -5px;
 }
