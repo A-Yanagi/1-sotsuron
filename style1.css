@@ -11,9 +11,9 @@
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-weight: bold;
   width: 100%;
-  font-size:25px;
-  padding: 10px;
-  margin-top: -80px;
+  font-size:20px;
+  padding: 8px;
+  margin-top: -55px;
 }
 
 .header-btns {
@@ -87,19 +87,20 @@ body{
 
 .container {
   display: flex;
-  margin-top: 80px;
+  margin-top: 55px;
 }
 
 .left{
   width: 33%;
   height:340%;
-  padding: 0.5em 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   border-right: double 7px rgb(78, 196, 211);
 }
 
 .video-title {
   position: relative;
-  padding: 5px 5px 5px 42px;
+  padding: 3px 3px 3px 42px;
   background: rgb(78, 196, 211);
   font-size: 15px;
   font-family: 'M PLUS Rounded 1c', sans-serif;
